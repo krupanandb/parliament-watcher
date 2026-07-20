@@ -165,21 +165,31 @@ def check_sitting_day(state, alerts):
     )
     session_dates = data.get("sessionDates") or []
     sitting_today = today_slash in session_dates
+
+    def _parse(d):
+        try:
+            return datetime.strptime(d, "%d/%m/%Y").replace(tzinfo=IST)
+        except ValueError:
+            return None
+
     if state.get("sitting_alerted") != today_key:
         if sitting_today:
+            # Sitting-day number within this month's session dates
+            # (used for the "DAY N" badge on my update cards).
+            day_no = len([
+                d for d in (_parse(x) for x in session_dates)
+                if d and d.date() <= now.date()
+            ])
             alerts.append(
-                f"\U0001F3DB <b>Parliament sits today</b> ({now.strftime('%d %b %Y')}).\n"
+                f"\U0001F3DB <b>Parliament sits today</b> "
+                f"({now.strftime('%d %b %Y')}) — <b>Day {day_no}</b> of the "
+                "session.\n"
                 "Lok Sabha and Rajya Sabha usually convene at 11:00 AM."
                 + LIVE_LINKS
             )
             state["sitting_alerted"] = today_key
         else:
             # During a session period, tell the user once that today is a break.
-            def _parse(d):
-                try:
-                    return datetime.strptime(d, "%d/%m/%Y").replace(tzinfo=IST)
-                except ValueError:
-                    return None
             upcoming = sorted(
                 d for d in (_parse(x) for x in session_dates)
                 if d and d.date() > now.date()
