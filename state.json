@@ -11,6 +11,7 @@
   "Rajya Sabha|2026-07-20|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/bc5ebb98-b1f0-4041-97a3-6bbaba51e012?source=dsp2rs",
   "Rajya Sabha|2026-07-20|List of Business|https://sansad.in/getFile/dms/fetch/4a644712-a72c-4152-b309-4b69fda23cba?source=dsp2rs",
   "Rajya Sabha|2026-07-20|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026720_SQCRC - 200726.pdf?source=rscms",
+  "Rajya Sabha|2026-07-20|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_200726.pdf?source=rscms",
   "Rajya Sabha|2026-07-20|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026717_usq2007206eng.pdf?source=rscms"
  ],
  "bills": {
@@ -317,5 +318,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1784557771.3890493
+ "last_msg_ts": 1784563773.8616104
 }
