@@ -1,0 +1,45 @@
+name: Parliament watcher
+
+on:
+  schedule:
+    # Every 5 minutes from 02:30-16:30 UTC = 08:00-22:00 IST.
+    # (GitHub may delay scheduled runs by a few minutes at busy times.)
+    - cron: "*/5 2-16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run watcher
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python watcher.py
+
+      - name: Save state
+        run: |
+          git config user.name "parliament-watcher"
+          git config user.email "actions@users.noreply.github.com"
+          [ -f state.json ] && git add state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update watcher state [skip ci]"
+            git pull --rebase origin ${GITHUB_REF_NAME} || true
+            git push
+          fi
