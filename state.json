@@ -1,9 +1,14 @@
 {
  "sitting_alerted": "2026-07-20",
  "seen_docs": [
+  "Lok Sabha|2026-07-20|Bulletin-II|https://sansad.in/getFile/dms/fetch/a85dfa48-cf8b-489a-a1e8-71372f5f0f97?source=dsp2",
+  "Lok Sabha|2026-07-20|Bulletin-I|https://sansad.in/getFile/dms/fetch/53f8a628-71ba-4ea3-8e29-61af004fa31b?source=dsp2",
   "Lok Sabha|2026-07-20|List Of Business|https://sansad.in/getFile/dms/fetch/0ad5c6a7-4f48-4c00-ae1b-598d6cbbd3aa?source=dsp2",
   "Lok Sabha|2026-07-20|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/a3e5c2da-2111-4f72-beac-862748fbf6fb?source=dsp2",
   "Lok Sabha|2026-07-20|Questions List|https://sansad.in/getFile/dms/fetch/f7b444d1-14da-4475-91d8-899c1b14878c?source=dsp2",
+  "Lok Sabha|2026-07-20|Synopsis|https://sansad.in/getFile/dms/fetch/bf48efe1-b549-44c6-b886-6aebec47ec69?source=dsp2",
+  "Rajya Sabha|2026-07-20|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2072026/English/Bull_20072026.pdf?source=rscms",
+  "Rajya Sabha|2026-07-20|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/bc5ebb98-b1f0-4041-97a3-6bbaba51e012?source=dsp2rs",
   "Rajya Sabha|2026-07-20|List of Business|https://sansad.in/getFile/dms/fetch/4a644712-a72c-4152-b309-4b69fda23cba?source=dsp2rs",
   "Rajya Sabha|2026-07-20|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026720_SQCRC - 200726.pdf?source=rscms",
   "Rajya Sabha|2026-07-20|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026717_usq2007206eng.pdf?source=rscms"
@@ -101,6 +106,7 @@
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10792",
   "10791",
   "10790",
   "10789",
@@ -299,8 +305,7 @@
   "10575",
   "10571",
   "10546",
-  "10532",
-  "10531"
+  "10532"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -312,5 +317,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1784549104.167964
+ "last_msg_ts": 1784557771.3890493
 }
