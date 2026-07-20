@@ -155,22 +155,167 @@ def current_session(state):
 
 
 def check_sitting_day(state, alerts):
+    """Morning alert; returns True if today is a sitting day."""
     now = datetime.now(IST)
     today_slash = now.strftime("%d/%m/%Y")
     today_key = now.strftime("%Y-%m-%d")
-    if state.get("sitting_alerted") == today_key:
-        return
     data = get_json(
         f"/api_ls/ppHome/MonthlyCalendar?month={now.month}&year={now.year}&locale=en",
         default={},
     )
-    if today_slash in (data.get("sessionDates") or []):
-        alerts.append(
-            f"\U0001F3DB <b>Parliament sits today</b> ({now.strftime('%d %b %Y')}).\n"
-            "Lok Sabha and Rajya Sabha usually convene at 11:00 AM."
-            + LIVE_LINKS
+    session_dates = data.get("sessionDates") or []
+    sitting_today = today_slash in session_dates
+    if state.get("sitting_alerted") != today_key:
+        if sitting_today:
+            alerts.append(
+                f"\U0001F3DB <b>Parliament sits today</b> ({now.strftime('%d %b %Y')}).\n"
+                "Lok Sabha and Rajya Sabha usually convene at 11:00 AM."
+                + LIVE_LINKS
+            )
+            state["sitting_alerted"] = today_key
+        else:
+            # During a session period, tell the user once that today is a break.
+            def _parse(d):
+                try:
+                    return datetime.strptime(d, "%d/%m/%Y").replace(tzinfo=IST)
+                except ValueError:
+                    return None
+            upcoming = sorted(
+                d for d in (_parse(x) for x in session_dates)
+                if d and d.date() > now.date()
+            )
+            recent = [
+                d for d in (_parse(x) for x in session_dates)
+                if d and 0 < (now.date() - d.date()).days <= 7
+            ]
+            if upcoming and recent:
+                alerts.append(
+                    f"\U0001F4C5 No sitting of Parliament today "
+                    f"({now.strftime('%d %b %Y')}). "
+                    f"Next sitting: <b>{upcoming[0].strftime('%d %b %Y')}</b>."
+                )
+                state["sitting_alerted"] = today_key
+    return sitting_today
+
+
+# --------------------------------------------------- live stream status ----
+
+YT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+def _yt_get(url):
+    try:
+        r = requests.get(
+            url, headers=YT_HEADERS, cookies={"CONSENT": "YES+1"}, timeout=30
         )
-        state["sitting_alerted"] = today_key
+        if r.status_code == 200 and len(r.text) > 10000:
+            return r.text
+    except Exception as e:
+        print(f"WARN: YouTube fetch failed: {e}")
+    return None
+
+
+def fetch_live_feeds():
+    """Return {'Lok Sabha': video_id_or_None, 'Rajya Sabha': ...} for feeds
+    that are live RIGHT NOW on the official Sansad TV channel, or None if
+    YouTube could not be checked at all (so callers can skip, not conclude)."""
+    import re
+
+    html = _yt_get("https://www.youtube.com/@sansadtv/streams")
+    if html is None:
+        return None
+    ids = []
+    for vid in re.findall(r'"videoId":"([\w-]{11})"', html):
+        if vid not in ids:
+            ids.append(vid)
+    feeds = {"Lok Sabha": None, "Rajya Sabha": None}
+    checked = 0
+    for vid in ids[:6]:
+        if checked >= 4 or all(feeds.values()):
+            break
+        page = _yt_get(f"https://www.youtube.com/watch?v={vid}")
+        checked += 1
+        if page is None:
+            return None  # can't trust partial YouTube data
+        if '"isLiveNow":true' not in page:
+            continue
+        m = re.search(r"<title>([^<]*)</title>", page)
+        title = (m.group(1) if m else "").lower()
+        if "lok sabha" in title and feeds["Lok Sabha"] is None:
+            feeds["Lok Sabha"] = vid
+        elif "rajya sabha" in title and feeds["Rajya Sabha"] is None:
+            feeds["Rajya Sabha"] = vid
+    return feeds
+
+
+def check_live_status(state, alerts, sitting_today):
+    """Alert when a House goes live (sitting started/resumed) or its stream
+    ends (House adjourned). Uses two consecutive 'offline' sightings before
+    declaring an adjournment, so a brief stream hiccup doesn't false-alarm."""
+    if not sitting_today:
+        return
+    feeds = fetch_live_feeds()
+    if feeds is None:
+        print("WARN: YouTube unreachable, skipping live-status check.")
+        return
+    status = state.get("live_status", {})
+    for house in ("Lok Sabha", "Rajya Sabha"):
+        vid = feeds.get(house)
+        prev = status.get(house, {"live": False, "off_seen": 0})
+        if vid:
+            if not prev["live"]:
+                alerts.append(
+                    f"\U0001F534 <b>{house} is LIVE</b> — the sitting has "
+                    f"started/resumed.\n"
+                    f"\U0001F4FA <a href='https://www.youtube.com/watch?v={vid}'>"
+                    f"Watch {house} live</a>"
+                )
+            status[house] = {"live": True, "off_seen": 0}
+        else:
+            if prev["live"]:
+                prev["off_seen"] = prev.get("off_seen", 0) + 1
+                if prev["off_seen"] >= 2:
+                    alerts.append(
+                        f"⏸ <b>{house} adjourned</b> — the live stream has "
+                        "ended. I keep checking every few minutes and will "
+                        "alert you the moment the House reconvenes."
+                    )
+                    prev = {"live": False, "off_seen": 0}
+                status[house] = prev
+            else:
+                status[house] = {"live": False, "off_seen": 0}
+    state["live_status"] = status
+
+
+def maybe_heartbeat(state, alerts, sitting_today):
+    """On sitting days, never leave more than an hour of silence: if nothing
+    was sent in the last 60 minutes, send a short status message."""
+    if not sitting_today or alerts:
+        return
+    now = datetime.now(IST)
+    if not (10 <= now.hour < 21):
+        return
+    last = state.get("last_msg_ts", 0)
+    if time.time() - last < 3600:
+        return
+    status = state.get("live_status", {})
+
+    def word(h):
+        return "\U0001F534 LIVE" if status.get(h, {}).get("live") else "adjourned / not streaming"
+
+    alerts.append(
+        f"ℹ️ No new updates in the last hour "
+        f"(checked {now.strftime('%I:%M %p')} IST).\n"
+        f"Lok Sabha: <b>{word('Lok Sabha')}</b> | "
+        f"Rajya Sabha: <b>{word('Rajya Sabha')}</b>\n"
+        "Monitoring continues every ~5 minutes."
+    )
 
 
 def _doc_items_ls(cal):
@@ -372,17 +517,21 @@ def main():
     state = load_state()
     alerts = []
 
-    check_sitting_day(state, alerts)
+    sitting_today = check_sitting_day(state, alerts)
     check_daily_documents(state, alerts)
     check_bills(state, alerts)
     check_uncorrected_debates(state, alerts)
     check_rs_latest_updates(state, alerts)
+    check_live_status(state, alerts, sitting_today)
+    maybe_heartbeat(state, alerts, sitting_today)
 
     print(f"{len(alerts)} alert(s) to send.")
     all_ok = True
     for a in alerts:
         if not send_telegram(a):
             all_ok = False
+    if alerts:
+        state["last_msg_ts"] = time.time()
     # Save state even on partial failure; a lost alert is better than a
     # stuck one repeating forever.
     save_state(state)
