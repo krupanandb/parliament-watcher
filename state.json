@@ -319,13 +319,13 @@
  ],
  "live_status": {
   "Lok Sabha": {
-   "live": true,
-   "off_seen": 1
+   "live": false,
+   "off_seen": 0
   },
   "Rajya Sabha": {
    "live": false,
    "off_seen": 0
   }
  },
- "last_msg_ts": 1784628549.039089
+ "last_msg_ts": 1784635107.2864487
 }
