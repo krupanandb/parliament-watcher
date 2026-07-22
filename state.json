@@ -19,6 +19,7 @@
   "Lok Sabha|2026-07-22|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/afb5ef46-b41b-425a-9e9e-540c18fc0ed3?source=dsp2",
   "Lok Sabha|2026-07-22|Questions List|https://sansad.in/getFile/dms/fetch/8d697f0f-020d-4488-b05d-b64d8e14cac6?source=dsp2",
   "Lok Sabha|2026-07-22|Revised List of Business|https://sansad.in/getFile/dms/fetch/d6de4c39-b978-4680-9ced-388af7138b5c?source=dsp2",
+  "Lok Sabha|2026-07-22|Synopsis|https://sansad.in/getFile/dms/fetch/00c518bc-fb81-49ca-ab73-926da370340a?source=dsp2",
   "Rajya Sabha|2026-07-20|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2072026/English/Bull_20072026.pdf?source=rscms",
   "Rajya Sabha|2026-07-20|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/bc5ebb98-b1f0-4041-97a3-6bbaba51e012?source=dsp2rs",
   "Rajya Sabha|2026-07-20|List of Business|https://sansad.in/getFile/dms/fetch/4a644712-a72c-4152-b309-4b69fda23cba?source=dsp2rs",
@@ -135,6 +136,7 @@
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10794",
   "10793",
   "10792",
   "10791",
@@ -333,8 +335,7 @@
   "10578",
   "10577",
   "10575",
-  "10571",
-  "10546"
+  "10571"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -346,5 +347,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1784729733.762386
+ "last_msg_ts": 1784735604.5757294
 }
