@@ -1,5 +1,5 @@
 {
- "sitting_alerted": "2026-07-24",
+ "sitting_alerted": "2026-07-25",
  "seen_docs": [
   "Lok Sabha|2026-07-20|Bulletin-II|https://sansad.in/getFile/dms/fetch/a85dfa48-cf8b-489a-a1e8-71372f5f0f97?source=dsp2",
   "Lok Sabha|2026-07-20|Bulletin-I|https://sansad.in/getFile/dms/fetch/53f8a628-71ba-4ea3-8e29-61af004fa31b?source=dsp2",
@@ -165,10 +165,11 @@
  "session_info": {
   "loksabha": 18,
   "session": 14,
-  "checked": "2026-07-24"
+  "checked": "2026-07-25"
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10797",
   "10796",
   "10795",
   "10794",
@@ -367,8 +368,7 @@
   "10582",
   "10581",
   "10580",
-  "10578",
-  "10577"
+  "10578"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -380,5 +380,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1784905457.3115168
+ "last_msg_ts": 1784955551.5509987
 }
