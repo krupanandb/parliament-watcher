@@ -34,6 +34,8 @@
   "Lok Sabha|2026-07-24|Questions List|https://sansad.in/getFile/dms/fetch/e89bccb3-4b83-4c1c-b19c-0efb8129a7ea?source=dsp2",
   "Lok Sabha|2026-07-24|Revised List of Business|https://sansad.in/getFile/dms/fetch/962c4c2b-6334-41a4-be9c-56d3b44f8eb8?source=dsp2",
   "Lok Sabha|2026-07-24|Synopsis|https://sansad.in/getFile/dms/fetch/7d48ca64-3129-412c-a472-ad5c3e2120dd?source=dsp2",
+  "Lok Sabha|2026-07-27|Bulletin-II|https://sansad.in/getFile/dms/fetch/7284a28d-d455-44be-9cce-62f27012c066?source=dsp2",
+  "Lok Sabha|2026-07-27|Bulletin-I|https://sansad.in/getFile/dms/fetch/61f00594-0bef-404f-acd5-4a4a5aabca1a?source=dsp2",
   "Lok Sabha|2026-07-27|List Of Business|https://sansad.in/getFile/dms/fetch/24e9e34f-d24c-418d-b421-ceebc0de0c0e?source=dsp2",
   "Lok Sabha|2026-07-27|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/6ea9f686-814e-4268-95ec-b85955c33b91?source=dsp2",
   "Lok Sabha|2026-07-27|Questions List|https://sansad.in/getFile/dms/fetch/95398b47-1c0a-458d-b110-04fa0637f045?source=dsp2",
@@ -75,9 +77,12 @@
   "Rajya Sabha|2026-07-24|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026724_SQCRC24072026.pdf?source=rscms",
   "Rajya Sabha|2026-07-24|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_240726.pdf?source=rscms",
   "Rajya Sabha|2026-07-24|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026724_UQCRC24072026.pdf?source=rscms",
+  "Rajya Sabha|2026-07-27|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2772026/English/Bull_27072026.pdf?source=rscms",
+  "Rajya Sabha|2026-07-27|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/09a40154-75f6-4d7c-adc6-11d98a360fa6?source=dsp2rs",
   "Rajya Sabha|2026-07-27|List of Business|https://sansad.in/getFile/dms/fetch/7e86f6bd-7565-4e86-84d4-8e8839b0f0c8?source=dsp2rs",
   "Rajya Sabha|2026-07-27|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_270726.pdf?source=rscms",
   "Rajya Sabha|2026-07-27|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026727_SQCRC27072026.pdf?source=rscms",
+  "Rajya Sabha|2026-07-27|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_270726.pdf?source=rscms",
   "Rajya Sabha|2026-07-27|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026727_UQCRC27072026.pdf?source=rscms"
  ],
  "bills": {
@@ -179,6 +184,7 @@
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10798",
   "10797",
   "10796",
   "10795",
@@ -377,8 +383,7 @@
   "10584",
   "10582",
   "10581",
-  "10580",
-  "10578"
+  "10580"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -390,5 +395,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785155103.9259768
+ "last_msg_ts": 1785165695.4464636
 }
