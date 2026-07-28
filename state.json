@@ -1,5 +1,5 @@
 {
- "sitting_alerted": "2026-07-27",
+ "sitting_alerted": "2026-07-28",
  "seen_docs": [
   "Lok Sabha|2026-07-21|Bulletin-I|https://sansad.in/getFile/dms/fetch/9f2262a8-36fb-4738-8003-ba9deb775826?source=dsp2",
   "Lok Sabha|2026-07-21|List Of Business|https://sansad.in/getFile/dms/fetch/a036c27f-70a0-41b4-96d9-32cc874313b8?source=dsp2",
@@ -392,5 +392,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785214710.4759
+ "last_msg_ts": 1785224211.2814174
 }
