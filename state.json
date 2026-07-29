@@ -32,6 +32,8 @@
   "Lok Sabha|2026-07-28|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/a5a55be0-8b68-4a49-b407-b3105a355895?source=dsp2",
   "Lok Sabha|2026-07-28|Questions List|https://sansad.in/getFile/dms/fetch/fa305025-55b0-4f1a-963e-2bbdc431ed49?source=dsp2",
   "Lok Sabha|2026-07-28|Revised List of Business|https://sansad.in/getFile/dms/fetch/f7e03237-111a-4919-832f-fda8d3e5cb7a?source=dsp2",
+  "Lok Sabha|2026-07-29|Bulletin-II|https://sansad.in/getFile/dms/fetch/3cafa54b-5b48-49ff-8757-454f2fb78b3c?source=dsp2",
+  "Lok Sabha|2026-07-29|Bulletin-I|https://sansad.in/getFile/dms/fetch/287a00ce-9121-46af-83d4-dee2d85ae3d2?source=dsp2",
   "Lok Sabha|2026-07-29|List Of Business|https://sansad.in/getFile/dms/fetch/fd9bcc34-afa7-4788-afc3-f16ba69a2e1d?source=dsp2",
   "Lok Sabha|2026-07-29|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/362e3d82-ba7e-4751-969a-0a8d8b2b6079?source=dsp2",
   "Lok Sabha|2026-07-29|Questions List|https://sansad.in/getFile/dms/fetch/fb05784f-0c3c-4610-a447-4949f722c283?source=dsp2",
@@ -171,7 +173,8 @@
    "Passed||2026-07-29 00:00:00.0||"
   ],
   "139/2026": [
-   "||||"
+   "||||",
+   "|2026-07-29 00:00:00.0|||"
   ],
   "LXXII/2026": [
    "Pending||||"
@@ -398,5 +401,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785321885.543488
+ "last_msg_ts": 1785328448.6156974
 }
