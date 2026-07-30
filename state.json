@@ -36,6 +36,7 @@
   "Lok Sabha|2026-07-30|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/5bdfa774-8b09-4156-b8c0-97d920ff976e?source=dsp2",
   "Lok Sabha|2026-07-30|Questions List|https://sansad.in/getFile/dms/fetch/0a88f88c-ee73-4cf8-b35d-124c34fbaf9d?source=dsp2",
   "Lok Sabha|2026-07-30|Revised List of Business|https://sansad.in/getFile/dms/fetch/daf1d8e3-a8b1-4d96-8b01-c75d72822c8a?source=dsp2",
+  "Lok Sabha|2026-07-30|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/8a80d303-e541-412b-87d8-1ad1d5bb9457?source=dsp2",
   "Rajya Sabha|2026-07-23|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2372026/English/Bull_23072026.pdf?source=rscms",
   "Rajya Sabha|2026-07-23|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/d2a5bec2-e1c0-4f5b-95ef-2d938b7ee74a?source=dsp2rs",
   "Rajya Sabha|2026-07-23|List of Business|https://sansad.in/getFile/dms/fetch/321b6e46-d8a6-4ba1-a085-749f125c7a40?source=dsp2rs",
@@ -400,5 +401,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785396239.9492643
+ "last_msg_ts": 1785405381.218883
 }
