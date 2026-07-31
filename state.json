@@ -33,6 +33,8 @@
   "Lok Sabha|2026-07-30|Revised List of Business|https://sansad.in/getFile/dms/fetch/daf1d8e3-a8b1-4d96-8b01-c75d72822c8a?source=dsp2",
   "Lok Sabha|2026-07-30|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/8a80d303-e541-412b-87d8-1ad1d5bb9457?source=dsp2",
   "Lok Sabha|2026-07-30|Synopsis|https://sansad.in/getFile/dms/fetch/68d73f01-6bc8-4f2b-982b-caf1c7d2f70e?source=dsp2",
+  "Lok Sabha|2026-07-31|Bulletin-II|https://sansad.in/getFile/dms/fetch/e2a432f4-500b-4fc7-ae30-3998c4d887c0?source=dsp2",
+  "Lok Sabha|2026-07-31|Bulletin-I|https://sansad.in/getFile/dms/fetch/92871f64-7dab-4f14-895e-54fa161a6a4c?source=dsp2",
   "Lok Sabha|2026-07-31|List Of Business|https://sansad.in/getFile/dms/fetch/43b594db-0ce0-4ef3-a342-e085761c5355?source=dsp2",
   "Lok Sabha|2026-07-31|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/14df91be-60aa-4f8a-8a82-90b55e0b14a3?source=dsp2",
   "Lok Sabha|2026-07-31|Questions List|https://sansad.in/getFile/dms/fetch/81cb0841-9ab2-45a4-b090-90ae158b1b80?source=dsp2",
@@ -76,6 +78,7 @@
   "Rajya Sabha|2026-07-30|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/3c67f2e3-faf0-40b7-9186-ec1f1a2fd373?source=dsp2rs",
   "Rajya Sabha|2026-07-30|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_300726.pdf?source=rscms",
   "Rajya Sabha|2026-07-30|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026730_UQ 30072026.pdf?source=rscms",
+  "Rajya Sabha|2026-07-31|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/3172026/English/Bull_31072026.pdf?source=rscms",
   "Rajya Sabha|2026-07-31|List of Business|https://sansad.in/getFile/dms/fetch/56d1d178-f465-4879-b892-ac440496a3c1?source=dsp2rs",
   "Rajya Sabha|2026-07-31|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_310726.pdf?source=rscms",
   "Rajya Sabha|2026-07-31|Revised List of Business|https://sansad.in/getFile/dms/fetch/7addcbdb-4cf1-4360-9a1e-50dbc58a1492?source=dsp2rs",
@@ -404,5 +407,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785495655.1842585
+ "last_msg_ts": 1785502945.3741965
 }
