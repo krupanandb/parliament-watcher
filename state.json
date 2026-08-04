@@ -38,6 +38,7 @@
   "Lok Sabha|2026-08-04|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/e8463db4-5e13-4cfb-87a4-6afaffc8a703?source=dsp2",
   "Lok Sabha|2026-08-04|Questions List|https://sansad.in/getFile/dms/fetch/93faebf1-b23b-4a43-8f52-6d7908ac7b39?source=dsp2",
   "Lok Sabha|2026-08-04|Revised List of Business|https://sansad.in/getFile/dms/fetch/73e2dffb-d62a-4c1d-a7df-5dcc72df24d6?source=dsp2",
+  "Lok Sabha|2026-08-04|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/95b57615-b86a-4d0f-b6a3-22e67219a7ce?source=dsp2",
   "Rajya Sabha|2026-07-28|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2872026/English/Bull_28072026.pdf?source=rscms",
   "Rajya Sabha|2026-07-28|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/27bb582a-18f1-4479-b98b-27f8398264f9?source=dsp2rs",
   "Rajya Sabha|2026-07-28|List of Business|https://sansad.in/getFile/dms/fetch/d0ab35fe-f263-4d98-a410-3be03c17ec9c?source=dsp2rs",
@@ -186,16 +187,24 @@
    "Passed|2026-07-29 00:00:00.0|2026-07-30 00:00:00.0||"
   ],
   "LXXII/2026": [
-   "Pending||||"
+   "Pending||||",
+   "Passed||2026-08-03 00:00:00.0||"
   ],
   "140/2026": [
    "Pending||||",
-   "Passed|2026-07-31 00:00:00.0|||"
+   "Passed|2026-07-31 00:00:00.0|||",
+   "Passed|2026-07-31 00:00:00.0|2026-08-04 00:00:00.0||"
   ],
   "144/2026": [
    "Pending||||"
   ],
   "147/2026": [
+   "Pending||||"
+  ],
+  "149/2026": [
+   "|2026-08-04 00:00:00.0|||"
+  ],
+  "150/2026": [
    "Pending||||"
   ]
  },
@@ -417,5 +426,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1785828974.2505052
+ "last_msg_ts": 1785838579.4885397
 }
