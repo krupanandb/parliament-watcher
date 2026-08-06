@@ -37,6 +37,7 @@
   "Lok Sabha|2026-08-05|Questions List|https://sansad.in/getFile/dms/fetch/62fdaebe-c8a9-490c-90b3-58c76f696bfd?source=dsp2",
   "Lok Sabha|2026-08-05|Revised List of Business|https://sansad.in/getFile/dms/fetch/ef374953-db14-4c3d-9832-57c5ae69391c?source=dsp2",
   "Lok Sabha|2026-08-05|Synopsis|https://sansad.in/getFile/dms/fetch/1dc5346d-c8b2-41d4-bf32-5ac6bacb7123?source=dsp2",
+  "Lok Sabha|2026-08-06|Bulletin-I|https://sansad.in/getFile/dms/fetch/bfa03c29-abbc-4d65-ae74-9a53aec8f4ac?source=dsp2",
   "Lok Sabha|2026-08-06|List Of Business|https://sansad.in/getFile/dms/fetch/35cbf1c3-94dd-4eab-81ee-18a7e9f18fba?source=dsp2",
   "Lok Sabha|2026-08-06|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/c0ad9edc-3cf0-43cf-be92-36bc0a08b858?source=dsp2",
   "Lok Sabha|2026-08-06|Questions List|https://sansad.in/getFile/dms/fetch/cdeb8891-0182-408c-8661-1c48bb3b4944?source=dsp2",
@@ -84,6 +85,8 @@
   "Rajya Sabha|2026-08-05|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_202685_SQCRC0508206.pdf?source=rscms",
   "Rajya Sabha|2026-08-05|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_050826.pdf?source=rscms",
   "Rajya Sabha|2026-08-05|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_202685_UQCRC05082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-06|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/682026/English/Bull_06082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-06|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/3a696f71-1480-487c-b273-e04290177d32?source=dsp2rs",
   "Rajya Sabha|2026-08-06|List of Business|https://sansad.in/getFile/dms/fetch/1c0cde2b-a3fa-4759-abf8-96c9bfc404ee?source=dsp2rs",
   "Rajya Sabha|2026-08-06|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_060826.pdf?source=rscms",
   "Rajya Sabha|2026-08-06|Revised List of Business|https://sansad.in/getFile/dms/fetch/8e39e460-0b23-404c-897e-b623b4ddf6f4?source=dsp2rs",
@@ -224,6 +227,7 @@
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10806",
   "10805",
   "10804",
   "10803",
@@ -422,8 +426,7 @@
   "10592",
   "10591",
   "10590",
-  "10589",
-  "10588"
+  "10589"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -431,9 +434,9 @@
    "off_seen": 0
   },
   "Rajya Sabha": {
-   "live": true,
-   "off_seen": 1
+   "live": false,
+   "off_seen": 0
   }
  },
- "last_msg_ts": 1786018893.363271
+ "last_msg_ts": 1786027283.0074897
 }
