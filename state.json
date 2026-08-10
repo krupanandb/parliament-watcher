@@ -42,6 +42,7 @@
   "Lok Sabha|2026-08-10|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/7fcc9060-1b8b-478f-a705-613454570a27?source=dsp2",
   "Lok Sabha|2026-08-10|Questions List|https://sansad.in/getFile/dms/fetch/e427acb0-6653-47da-87cf-f44b73c0fc12?source=dsp2",
   "Lok Sabha|2026-08-10|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/3b35d808-792e-41b4-b976-fe93d7c5bb5d?source=dsp2",
+  "Lok Sabha|2026-08-10|Synopsis|https://sansad.in/getFile/dms/fetch/b517f577-9026-4d88-907a-940420fb92c4?source=dsp2",
   "Rajya Sabha|2026-08-03|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/382026/English/Bull_03082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-03|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/437acaf5-a29c-49af-861c-0bd056805960?source=dsp2rs",
   "Rajya Sabha|2026-08-03|List of Business|https://sansad.in/getFile/dms/fetch/ad96bb3d-16af-426b-8ddb-a5e25707e8a2?source=dsp2rs",
@@ -86,6 +87,7 @@
   "Rajya Sabha|2026-08-07|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_070826.pdf?source=rscms",
   "Rajya Sabha|2026-08-07|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_202687_UQCRC07082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-10|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1082026/English/Bull_10082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-10|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/cca1a23f-53ff-49a8-a551-0559e3e7d22a?source=dsp2rs",
   "Rajya Sabha|2026-08-10|List of Business|https://sansad.in/getFile/dms/fetch/6e9b3341-afc5-4a17-8e0a-d8d8c4fe9b9f?source=dsp2rs",
   "Rajya Sabha|2026-08-10|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_100826.pdf?source=rscms",
   "Rajya Sabha|2026-08-10|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026810_SQ100826.pdf?source=rscms",
@@ -449,5 +451,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786370119.0947385
+ "last_msg_ts": 1786373476.7096848
 }
