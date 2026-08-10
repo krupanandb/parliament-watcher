@@ -37,6 +37,7 @@
   "Lok Sabha|2026-08-08|Bulletin-II|https://sansad.in/getFile/dms/fetch/96a58501-9bc7-40eb-8618-413ebf1b3771?source=dsp2",
   "Lok Sabha|2026-08-09|Bulletin-II|https://sansad.in/getFile/dms/fetch/5f90fecd-9213-4f45-9b03-d4c09804cd68?source=dsp2",
   "Lok Sabha|2026-08-10|Bulletin-II|https://sansad.in/getFile/dms/fetch/27f61d50-02b2-42d1-9bd5-59f86d87679c?source=dsp2",
+  "Lok Sabha|2026-08-10|Bulletin-I|https://sansad.in/getFile/dms/fetch/5cc86b66-5a63-4fd7-ba4f-c777ef555d88?source=dsp2",
   "Lok Sabha|2026-08-10|List Of Business|https://sansad.in/getFile/dms/fetch/61ab7ee0-5975-463f-bd11-e49d2e9e6bcf?source=dsp2",
   "Lok Sabha|2026-08-10|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/7fcc9060-1b8b-478f-a705-613454570a27?source=dsp2",
   "Lok Sabha|2026-08-10|Questions List|https://sansad.in/getFile/dms/fetch/e427acb0-6653-47da-87cf-f44b73c0fc12?source=dsp2",
@@ -84,6 +85,7 @@
   "Rajya Sabha|2026-08-07|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_202687_SQCRC07082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-07|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_070826.pdf?source=rscms",
   "Rajya Sabha|2026-08-07|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_202687_UQCRC07082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-10|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1082026/English/Bull_10082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-10|List of Business|https://sansad.in/getFile/dms/fetch/6e9b3341-afc5-4a17-8e0a-d8d8c4fe9b9f?source=dsp2rs",
   "Rajya Sabha|2026-08-10|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_100826.pdf?source=rscms",
   "Rajya Sabha|2026-08-10|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026810_SQ100826.pdf?source=rscms",
@@ -236,6 +238,7 @@
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
+  "10808",
   "10807",
   "10806",
   "10805",
@@ -434,8 +437,7 @@
   "10594",
   "10593",
   "10592",
-  "10591",
-  "10590"
+  "10591"
  ],
  "live_status": {
   "Lok Sabha": {
@@ -447,5 +449,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786364858.3038619
+ "last_msg_ts": 1786370119.0947385
 }
