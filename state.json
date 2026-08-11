@@ -440,7 +440,7 @@
  ],
  "live_status": {
   "Lok Sabha": {
-   "live": false,
+   "live": true,
    "off_seen": 0
   },
   "Rajya Sabha": {
@@ -448,5 +448,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786423757.7131975
+ "last_msg_ts": 1786427014.0914838
 }
