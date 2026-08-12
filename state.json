@@ -37,6 +37,7 @@
   "Lok Sabha|2026-08-11|Questions List|https://sansad.in/getFile/dms/fetch/4ddbdf15-16f2-4dba-a1f0-10429b8a545e?source=dsp2",
   "Lok Sabha|2026-08-11|Revised List of Business|https://sansad.in/getFile/dms/fetch/184540c1-71f5-4f80-b93c-3ee5d0b7597b?source=dsp2",
   "Lok Sabha|2026-08-11|Synopsis|https://sansad.in/getFile/dms/fetch/1aa37002-5f4d-4f9f-995e-2782289aeae9?source=dsp2",
+  "Lok Sabha|2026-08-12|Bulletin-II|https://sansad.in/getFile/dms/fetch/e97da0a6-fece-485c-8550-240889021ad3?source=dsp2",
   "Lok Sabha|2026-08-12|List Of Business|https://sansad.in/getFile/dms/fetch/280e809c-9484-4621-a9dd-d22c523b7359?source=dsp2",
   "Lok Sabha|2026-08-12|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/3699c4ec-6a09-44de-9c1a-6825a708c9c2?source=dsp2",
   "Lok Sabha|2026-08-12|Questions List|https://sansad.in/getFile/dms/fetch/3b4f8149-3434-4846-bb9c-34e306f3e0a2?source=dsp2",
@@ -82,6 +83,7 @@
   "Rajya Sabha|2026-08-11|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026811_SQCRC11082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-11|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_110826.pdf?source=rscms",
   "Rajya Sabha|2026-08-11|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026811_UQCRC11082026pdf.pdf?source=rscms",
+  "Rajya Sabha|2026-08-12|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1282026/English/Bull_12082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|List of Business|https://sansad.in/getFile/dms/fetch/b20ab9da-86f0-42d7-b262-4dddd1170ead?source=dsp2rs",
   "Rajya Sabha|2026-08-12|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_120826.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|Revised List of Business|https://sansad.in/getFile/dms/fetch/d4ee1e20-82f8-41e2-b1cd-3d8923970f24?source=dsp2rs",
@@ -232,11 +234,13 @@
   ],
   "155/2026": [
    "||||",
-   "Passed|2026-08-11 00:00:00.0|||"
+   "Passed|2026-08-11 00:00:00.0|||",
+   "Passed|2026-08-11 00:00:00.0|2026-08-12 00:00:00.0||"
   ],
   "156/2026": [
    "||||",
-   "Passed|2026-08-11 00:00:00.0|||"
+   "Passed|2026-08-11 00:00:00.0|||",
+   "Passed|2026-08-11 00:00:00.0|2026-08-12 00:00:00.0||"
   ]
  },
  "session_info": {
@@ -457,5 +461,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786536546.6320314
+ "last_msg_ts": 1786542116.13166
 }
