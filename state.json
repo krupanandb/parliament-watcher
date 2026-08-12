@@ -86,6 +86,7 @@
   "Rajya Sabha|2026-08-12|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_120826.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|Revised List of Business|https://sansad.in/getFile/dms/fetch/d4ee1e20-82f8-41e2-b1cd-3d8923970f24?source=dsp2rs",
   "Rajya Sabha|2026-08-12|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026812_SQCRC12082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-12|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/47f69a10-465a-4382-98a9-d5e651341a31?source=dsp2rs",
   "Rajya Sabha|2026-08-12|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026812_UQCRC12082026.pdf?source=rscms"
  ],
  "bills": {
@@ -224,7 +225,8 @@
    "Passed|2026-08-10 00:00:00.0|2026-08-11 00:00:00.0||"
   ],
   "154/2026": [
-   "||||"
+   "||||",
+   "Passed|2026-08-12 00:00:00.0|||"
   ],
   "155/2026": [
    "||||",
@@ -453,5 +455,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786527133.4711902
+ "last_msg_ts": 1786531077.3060596
 }
