@@ -44,6 +44,7 @@
   "Lok Sabha|2026-08-13|Papers To Be Laid|https://sansad.in/getFile/dms/fetch/f3a00ffa-8104-46df-b446-12ba266a5ad6?source=dsp2",
   "Lok Sabha|2026-08-13|Questions List|https://sansad.in/getFile/dms/fetch/44e24808-4bde-48e4-8a16-07ce57b87487?source=dsp2",
   "Lok Sabha|2026-08-13|Revised List of Business|https://sansad.in/getFile/dms/fetch/295164ca-d23d-42cd-9a87-59ee13334bac?source=dsp2",
+  "Lok Sabha|2026-08-13|Synopsis|https://sansad.in/getFile/dms/fetch/5c1bf09f-9b02-4cbd-baea-94504a1581e3?source=dsp2",
   "Rajya Sabha|2026-08-06|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/682026/English/Bull_06082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-06|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/3a696f71-1480-487c-b273-e04290177d32?source=dsp2rs",
   "Rajya Sabha|2026-08-06|List of Business|https://sansad.in/getFile/dms/fetch/1c0cde2b-a3fa-4759-abf8-96c9bfc404ee?source=dsp2rs",
@@ -85,6 +86,7 @@
   "Rajya Sabha|2026-08-12|Supplementary List of Business-1|https://sansad.in/getFile/dms/fetch/47f69a10-465a-4382-98a9-d5e651341a31?source=dsp2rs",
   "Rajya Sabha|2026-08-12|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_120826.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026812_UQCRC12082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-13|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1382026/English/Bull_13082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-13|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/96559e6f-2c03-4eac-bc2f-df726e569881?source=dsp2rs",
   "Rajya Sabha|2026-08-13|List of Business|https://sansad.in/getFile/dms/fetch/f4017354-a4e4-4804-85cb-dfaa937150b8?source=dsp2rs",
   "Rajya Sabha|2026-08-13|Papers To Be Laid|https://sansad.in/getFile/UploadedFiles/TableOffice/TableLaid/Session_271/English_130826.pdf?source=rscms",
@@ -459,9 +461,9 @@
    "off_seen": 0
   },
   "Rajya Sabha": {
-   "live": false,
+   "live": true,
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786624019.7816498
+ "last_msg_ts": 1786629363.1081219
 }
