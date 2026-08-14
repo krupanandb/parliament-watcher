@@ -40,6 +40,7 @@
   "Lok Sabha|2026-08-13|Questions List|https://sansad.in/getFile/dms/fetch/44e24808-4bde-48e4-8a16-07ce57b87487?source=dsp2",
   "Lok Sabha|2026-08-13|Revised List of Business|https://sansad.in/getFile/dms/fetch/295164ca-d23d-42cd-9a87-59ee13334bac?source=dsp2",
   "Lok Sabha|2026-08-13|Synopsis|https://sansad.in/getFile/dms/fetch/5c1bf09f-9b02-4cbd-baea-94504a1581e3?source=dsp2",
+  "Lok Sabha|2026-08-14|Bulletin-II|https://sansad.in/getFile/dms/fetch/94a56a08-76c4-44ac-9a2c-89434a27fdf2?source=dsp2",
   "Rajya Sabha|2026-08-07|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/782026/English/Bull2070826.pdf?source=rscms",
   "Rajya Sabha|2026-08-07|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/782026/English/Bull_07082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-07|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/bb246e25-18ed-4025-bafe-0307c4cb0a10?source=dsp2rs",
@@ -80,7 +81,8 @@
   "Rajya Sabha|2026-08-13|Revised List of Business|https://sansad.in/getFile/dms/fetch/af0fbf32-127e-41db-9883-25d1ce25945a?source=dsp2rs",
   "Rajya Sabha|2026-08-13|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_SQ 13082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-13|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_130826.pdf?source=rscms",
-  "Rajya Sabha|2026-08-13|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_UQ 13082026.pdf?source=rscms"
+  "Rajya Sabha|2026-08-13|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_UQ 13082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-14|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1482026/English/Bull_14082026.pdf?source=rscms"
  ],
  "bills": {
   "107/2026": [
@@ -453,5 +455,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786635852.6381304
+ "last_msg_ts": 1786713836.9174454
 }
