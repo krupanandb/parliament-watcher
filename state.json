@@ -64,7 +64,8 @@
   "Rajya Sabha|2026-08-13|Starred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_SQ 13082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-13|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_130826.pdf?source=rscms",
   "Rajya Sabha|2026-08-13|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_UQ 13082026.pdf?source=rscms",
-  "Rajya Sabha|2026-08-14|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1482026/English/Bull_14082026.pdf?source=rscms"
+  "Rajya Sabha|2026-08-14|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1482026/English/Bull_14082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-17|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1782026/English/Bull_17082026.pdf?source=rscms"
  ],
  "bills": {
   "107/2026": [
@@ -437,5 +438,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1786969175.7123096
+ "last_msg_ts": 1786974678.883117
 }
