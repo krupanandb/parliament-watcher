@@ -19,6 +19,7 @@
   "Lok Sabha|2026-08-14|Bulletin-II|https://sansad.in/getFile/dms/fetch/94a56a08-76c4-44ac-9a2c-89434a27fdf2?source=dsp2",
   "Lok Sabha|2026-08-17|Bulletin-II|https://sansad.in/getFile/dms/fetch/e44b6ba3-055a-4abe-8c20-103597b82011?source=dsp2",
   "Lok Sabha|2026-08-18|Bulletin-II|https://sansad.in/getFile/dms/fetch/6333ae34-d872-4ce4-9eae-87883d64cae9?source=dsp2",
+  "Lok Sabha|2026-08-19|Bulletin-II|https://sansad.in/getFile/dms/fetch/ac2be516-0a35-4c8e-8103-161c35082ce2?source=dsp2",
   "Rajya Sabha|2026-08-12|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1282026/English/Bull2120826.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1282026/English/Bull_12082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-12|Bulletin Part-I|https://sansad.in/getFile/dms/fetch/561744ae-c0eb-4784-9fa9-6d1b832a5865?source=dsp2rs",
@@ -38,7 +39,8 @@
   "Rajya Sabha|2026-08-13|Synopsis|https://sansad.in/getFile/UploadedFiles/Synopsis/SynopsisUpload/Session_271/English_130826.pdf?source=rscms",
   "Rajya Sabha|2026-08-13|Unstarred Questions|https://sansad.in/getFile/UploadedFiles/Questions/QuestionsList/271/English_2026813_UQ 13082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-14|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1482026/English/Bull_14082026.pdf?source=rscms",
-  "Rajya Sabha|2026-08-17|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1782026/English/Bull_17082026.pdf?source=rscms"
+  "Rajya Sabha|2026-08-17|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1782026/English/Bull_17082026.pdf?source=rscms",
+  "Rajya Sabha|2026-08-19|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1982026/English/Bull_19082026.pdf?source=rscms"
  ],
  "bills": {
   "107/2026": [
@@ -411,5 +413,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1787064550.7173197
+ "last_msg_ts": 1787144935.913951
 }
