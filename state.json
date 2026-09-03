@@ -4,9 +4,11 @@
   "Lok Sabha|2026-08-31|Bulletin-II|https://sansad.in/getFile/dms/fetch/6755c5ae-b11e-4e4a-9b03-8d78d028487c?source=dsp2",
   "Lok Sabha|2026-09-01|Bulletin-II|https://sansad.in/getFile/dms/fetch/08029639-a4bb-46db-8334-4938f22fd094?source=dsp2",
   "Lok Sabha|2026-09-02|Bulletin-II|https://sansad.in/getFile/dms/fetch/2d542c57-5add-4463-8a9a-4fa07c2c12b7?source=dsp2",
+  "Lok Sabha|2026-09-03|Bulletin-II|https://sansad.in/getFile/dms/fetch/deb4549a-b8ce-4536-a58f-760c5c9fedfb?source=dsp2",
   "Rajya Sabha|2026-08-28|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/2882026/English/Bull_28082026.pdf?source=rscms",
   "Rajya Sabha|2026-08-31|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/3182026/English/Bull_31082026.pdf?source=rscms",
-  "Rajya Sabha|2026-09-02|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/292026/English/Bull_02092026.pdf?source=rscms"
+  "Rajya Sabha|2026-09-02|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/292026/English/Bull_02092026.pdf?source=rscms",
+  "Rajya Sabha|2026-09-03|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/392026/English/Bull_03092026.pdf?source=rscms"
  ],
  "bills": {
   "107/2026": [
@@ -388,5 +390,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1788362287.0203087
+ "last_msg_ts": 1788448284.5372806
 }
