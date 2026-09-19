@@ -4,7 +4,6 @@
   "Lok Sabha|2026-09-14|Bulletin-II|https://sansad.in/getFile/dms/fetch/f9dcecc8-6e46-4ebe-8bd1-3885ce8962f7?source=dsp2",
   "Lok Sabha|2026-09-16|Bulletin-II|https://sansad.in/getFile/dms/fetch/0ddf0866-0057-45bc-afca-a9a2807fc289?source=dsp2",
   "Lok Sabha|2026-09-18|Bulletin-II|https://sansad.in/getFile/dms/fetch/dabe432d-86bc-4a6d-9e2c-a0a8fd30abb8?source=dsp2",
-  "Rajya Sabha|2026-09-11|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1192026/English/Bull_11092026.pdf?source=rscms",
   "Rajya Sabha|2026-09-14|Bulletin Part-II|https://sansad.in/getFile/UploadedFiles/TableOffice/Bulletin2/1492026/English/Bull_14092026.pdf?source=rscms"
  ],
  "bills": {
@@ -172,7 +171,7 @@
  "session_info": {
   "loksabha": 18,
   "session": 14,
-  "checked": "2026-09-18"
+  "checked": "2026-09-19"
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
