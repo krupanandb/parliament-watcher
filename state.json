@@ -1,10 +1,8 @@
 {
  "sitting_alerted": "2026-08-13",
  "seen_docs": [
-  "Lok Sabha|2026-10-29|Bulletin-II|https://sansad.in/getFile/dms/fetch/47b99da5-1bd5-4cee-8d2e-e6b84c70322f?source=dsp2",
   "Lok Sabha|2026-10-30|Bulletin-II|https://sansad.in/getFile/dms/fetch/61e07968-94b5-422a-b66a-420d3db7f6ce?source=dsp2",
-  "Lok Sabha|2026-11-04|Bulletin-II|https://sansad.in/getFile/dms/fetch/61d75b58-e56e-48de-a021-756f189e7ec7?source=dsp2",
-  "Rajya Sabha|2026-10-29|Bulletin Part-II|https://sansad.in/getFile/dms/fetch/86ffd8c2-9fd4-4de6-bec7-62fa49b3f039?source=dsp2rs"
+  "Lok Sabha|2026-11-04|Bulletin-II|https://sansad.in/getFile/dms/fetch/61d75b58-e56e-48de-a021-756f189e7ec7?source=dsp2"
  ],
  "bills": {
   "107/2026": [
@@ -171,7 +169,7 @@
  "session_info": {
   "loksabha": 18,
   "session": 14,
-  "checked": "2026-11-05"
+  "checked": "2026-11-06"
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
