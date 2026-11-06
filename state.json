@@ -2,7 +2,9 @@
  "sitting_alerted": "2026-08-13",
  "seen_docs": [
   "Lok Sabha|2026-10-30|Bulletin-II|https://sansad.in/getFile/dms/fetch/61e07968-94b5-422a-b66a-420d3db7f6ce?source=dsp2",
-  "Lok Sabha|2026-11-04|Bulletin-II|https://sansad.in/getFile/dms/fetch/61d75b58-e56e-48de-a021-756f189e7ec7?source=dsp2"
+  "Lok Sabha|2026-11-04|Bulletin-II|https://sansad.in/getFile/dms/fetch/61d75b58-e56e-48de-a021-756f189e7ec7?source=dsp2",
+  "Lok Sabha|2026-11-06|Bulletin-II|https://sansad.in/getFile/dms/fetch/bf61aaae-3f95-4ef8-9858-287c38421166?source=dsp2",
+  "Rajya Sabha|2026-11-06|Bulletin Part-II|https://sansad.in/getFile/dms/fetch/2d9c855e-a9fb-41e8-9152-004c30ee9dbf?source=dsp2rs"
  ],
  "bills": {
   "107/2026": [
@@ -384,5 +386,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1793809536.8407314
+ "last_msg_ts": 1793982004.5173256
 }
