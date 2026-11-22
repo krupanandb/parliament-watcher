@@ -1,8 +1,6 @@
 {
  "sitting_alerted": "2026-08-13",
- "seen_docs": [
-  "Rajya Sabha|2026-11-14|Bulletin Part-II|https://sansad.in/getFile/dms/fetch/f1b8767c-47d1-4351-acb5-fe13a6b648ed?source=dsp2rs"
- ],
+ "seen_docs": [],
  "bills": {
   "107/2026": [
    "Negatived||||"
@@ -168,7 +166,7 @@
  "session_info": {
   "loksabha": 18,
   "session": 14,
-  "checked": "2026-11-21"
+  "checked": "2026-11-22"
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
