@@ -1,6 +1,8 @@
 {
  "sitting_alerted": "2026-08-13",
- "seen_docs": [],
+ "seen_docs": [
+  "Lok Sabha|2026-11-28|Bulletin-II|https://sansad.in/getFile/dms/fetch/98915500-0c67-4819-985a-7c8d7544dea4?source=dsp2"
+ ],
  "bills": {
   "107/2026": [
    "Negatived||||"
@@ -166,7 +168,7 @@
  "session_info": {
   "loksabha": 18,
   "session": 14,
-  "checked": "2026-11-27"
+  "checked": "2026-11-28"
  },
  "seen_debate_dates": [],
  "seen_rs_updates": [
@@ -381,5 +383,5 @@
    "off_seen": 0
   }
  },
- "last_msg_ts": 1794644577.6076055
+ "last_msg_ts": 1795858756.86412
 }
